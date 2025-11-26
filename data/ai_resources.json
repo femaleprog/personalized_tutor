@@ -1,0 +1,698 @@
+[
+  {
+    "title": "Generative AI with LLMs",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/courses/generative-ai-with-llms/",
+    "topics": ["generative ai", "llms", "deep learning"],
+    "summary": "This course teaches how to build LLM-powered apps, covering prompt engineering, retrieval, and productionization."
+  },
+  {
+    "title": "Getting Started with Mistral",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/getting-started-with-mistral/",
+    "topics": ["mistral", "llms", "open weight models"],
+    "summary": "A short course introducing Mistral models, including usage patterns and best practices."
+  },
+  {
+    "title": "Transformer Inference Arithmetic",
+    "type": "blog",
+    "provider": "Kipp.ly",
+    "link": "https://kipp.ly/transformer-inference-arithmetic/",
+    "topics": ["transformers", "inference", "math"],
+    "summary": "An explanation of the arithmetic behind transformer inference, with a focus on efficient computation."
+  },
+  {
+    "title": "Transformer Math",
+    "type": "blog",
+    "provider": "EleutherAI",
+    "link": "https://blog.eleuther.ai/transformer-math/",
+    "topics": ["transformer", "math", "theory"],
+    "summary": "A deep dive into the mathematics behind transformer models from EleutherAI."
+  },
+  {
+    "title": "Understanding Transformers (YouTube)",
+    "type": "video",
+    "provider": "YouTube",
+    "link": "https://www.youtube.com/watch?v=mYRqvB1_gRk",
+    "topics": ["transformers", "video", "explanation"],
+    "summary": "A clear and engaging YouTube video explaining how transformers work."
+  },
+  {
+    "title": "Machine Learning Specialization",
+    "type": "course",
+    "provider": "Coursera (Andrew Ng)",
+    "link": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "topics": ["machine learning", "supervised learning", "unsupervised learning", "python", "tensorflow"],
+    "summary": "Rated 4.9/5 with 4.8M+ learners. Covers Python, NumPy, scikit-learn, decision trees, TensorFlow, and challenging AI projects."
+  },
+  {
+    "title": "NLP with Hugging Face",
+    "type": "course",
+    "provider": "Hugging Face",
+    "link": "https://huggingface.co/learn/",
+    "topics": ["nlp", "transformers", "hugging face", "fine-tuning"],
+    "summary": "No prior ML framework experience needed. Learn to use Hugging Face Transformers, Hub, and fine-tune models on custom datasets."
+  },
+  {
+    "title": "Deep Reinforcement Learning",
+    "type": "course",
+    "provider": "Hugging Face",
+    "link": "https://huggingface.co/learn/",
+    "topics": ["reinforcement learning", "drl", "policy gradients", "q-learning"],
+    "summary": "Learn DRL theory and apply it via Colab-based exercises and challenges for hands-on learning."
+  },
+  {
+    "title": "Audio Processing with Transformers",
+    "type": "course",
+    "provider": "Hugging Face",
+    "link": "https://huggingface.co/learn/",
+    "topics": ["audio", "transformers", "signal processing"],
+    "summary": "Comprehensive course from fundamentals to advanced applications of audio processing using Transformers."
+  },
+  {
+    "title": "Computer Vision with TensorFlow Specialization",
+    "type": "course",
+    "provider": "Coursera",
+    "link": "https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow?specialization=tensorflow-advanced-techniques",
+    "topics": ["computer vision", "tensorflow", "object detection", "segmentation"],
+    "summary": "Master TensorFlow for CV: fundamentals, object detection, segmentation, and model interpretation."
+  },
+  {
+    "title": "Prompt Engineering for Vision",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/prompt-engineering-for-vision/",
+    "topics": ["llms", "vision", "prompt engineering"],
+    "summary": "Learn advanced techniques for crafting prompts for vision-language models like GPT-4V and Claude."
+  },
+  {
+    "title": "Building Systems with ChatGPT API",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/building-systems-with-the-chatgpt-api/",
+    "topics": ["chatgpt", "api", "llms", "production"],
+    "summary": "Learn to build multi-turn conversations, handle context, and deploy LLM applications in production."
+  },
+  {
+    "title": "Finetuning Large Language Models",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/",
+    "topics": ["llms", "fine-tuning", "transfer learning"],
+    "summary": "Master techniques for fine-tuning LLMs on custom data to improve performance on specific tasks."
+  },
+  {
+    "title": "Langchain for LLM Application Development",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/",
+    "topics": ["langchain", "llms", "rag", "chains"],
+    "summary": "Learn to build sophisticated LLM applications using LangChain for chaining, memory, and integrations."
+  },
+  {
+    "title": "Evaluation and Business Metrics for LLMs",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/evaluation-business-metrics-for-llms/",
+    "topics": ["llms", "evaluation", "metrics", "business"],
+    "summary": "Understand how to measure LLM performance, cost, and business impact for informed decisions."
+  },
+  {
+    "title": "Building RAG Applications",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/building-and-evaluating-advanced-rag/",
+    "topics": ["rag", "retrieval", "llms", "langchain"],
+    "summary": "Advanced techniques for building RAG systems that combine retrieval with generative AI."
+  },
+  {
+    "title": "Multi-Agent Systems with Claude",
+    "type": "course",
+    "provider": "Anthropic",
+    "link": "https://claude.ai/docs/agents",
+    "topics": ["agents", "claude", "multi-agent", "autonomous"],
+    "summary": "Learn to build autonomous agents that can plan, collaborate, and solve complex tasks."
+  },
+  {
+    "title": "Fast Language Models with Ollama",
+    "type": "tutorial",
+    "provider": "Ollama Docs",
+    "link": "https://ollama.ai/",
+    "topics": ["local llm", "ollama", "open source"],
+    "summary": "Run large language models locally and offline using Ollama - perfect for privacy-focused applications."
+  },
+  {
+    "title": "Introduction to PyTorch",
+    "type": "course",
+    "provider": "Meta/PyTorch",
+    "link": "https://pytorch.org/tutorials/beginner/basics/intro.html",
+    "topics": ["pytorch", "deep learning", "neural networks"],
+    "summary": "Complete beginner-friendly introduction to PyTorch, covering tensors, autograd, and neural networks."
+  },
+  {
+    "title": "Advanced PyTorch: Custom Architectures",
+    "type": "course",
+    "provider": "PyTorch",
+    "link": "https://pytorch.org/tutorials/intermediate/",
+    "topics": ["pytorch", "architecture", "advanced"],
+    "summary": "Build custom neural network architectures and advanced training techniques with PyTorch."
+  },
+  {
+    "title": "TensorFlow for Natural Language Processing",
+    "type": "course",
+    "provider": "TensorFlow",
+    "link": "https://www.tensorflow.org/tutorials/text",
+    "topics": ["tensorflow", "nlp", "text", "embeddings"],
+    "summary": "Complete guide to NLP tasks with TensorFlow including text classification and sequence modeling."
+  },
+  {
+    "title": "Attention Is All You Need (Paper)",
+    "type": "research paper",
+    "provider": "arXiv",
+    "link": "https://arxiv.org/abs/1706.03762",
+    "topics": ["transformers", "attention", "theory", "research"],
+    "summary": "The original Transformer paper that revolutionized deep learning. A must-read for understanding modern AI."
+  },
+  {
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+    "type": "research paper",
+    "provider": "arXiv",
+    "link": "https://arxiv.org/abs/1810.04805",
+    "topics": ["bert", "nlp", "pre-training", "research"],
+    "summary": "Foundational paper introducing BERT, which democratized transfer learning for NLP tasks."
+  },
+  {
+    "title": "Large Language Models are Zero-Shot Learners",
+    "type": "research paper",
+    "provider": "arXiv",
+    "link": "https://arxiv.org/abs/2109.01652",
+    "topics": ["llms", "zero-shot", "generalization", "research"],
+    "summary": "Explores how LLMs can solve tasks without explicit training through zero-shot prompting."
+  },
+  {
+    "title": "Chain-of-Thought Prompting",
+    "type": "research paper",
+    "provider": "arXiv",
+    "link": "https://arxiv.org/abs/2201.11903",
+    "topics": ["prompting", "reasoning", "llms", "research"],
+    "summary": "Shows how step-by-step prompting dramatically improves LLM reasoning capabilities."
+  },
+  {
+    "title": "The State of Sparsity in Deep Neural Networks",
+    "type": "blog",
+    "provider": "Papers With Code",
+    "link": "https://paperswithcode.com/methods/category/neural-network-pruning",
+    "topics": ["pruning", "efficiency", "neural networks"],
+    "summary": "Overview of sparsity techniques to make neural networks more efficient and deployable."
+  },
+  {
+    "title": "Quantization and Optimization for LLMs",
+    "type": "blog",
+    "provider": "SemiEngineering",
+    "link": "https://semiengineering.com/",
+    "topics": ["quantization", "optimization", "efficiency", "llms"],
+    "summary": "Practical guide to making LLMs smaller and faster through quantization techniques."
+  },
+  {
+    "title": "Vector Databases 101",
+    "type": "blog",
+    "provider": "Weaviate",
+    "link": "https://weaviate.io/blog/vector-databases/",
+    "topics": ["vector databases", "embeddings", "semantic search"],
+    "summary": "Complete guide to vector databases and their role in modern AI applications."
+  },
+  {
+    "title": "RAG vs Fine-tuning: Understanding Trade-offs",
+    "type": "blog",
+    "provider": "Pinecone",
+    "link": "https://www.pinecone.io/learn/rag-vs-fine-tuning/",
+    "topics": ["rag", "fine-tuning", "comparison"],
+    "summary": "Comprehensive comparison of RAG and fine-tuning approaches for customizing LLMs."
+  },
+  {
+    "title": "FastAPI for Machine Learning",
+    "type": "course",
+    "provider": "Real Python",
+    "link": "https://realpython.com/fastapi-machine-learning/",
+    "topics": ["fastapi", "web development", "apis", "deployment"],
+    "summary": "Learn to build high-performance APIs for ML models using FastAPI."
+  },
+  {
+    "title": "MLOps Fundamentals",
+    "type": "course",
+    "provider": "DataTalks.Club",
+    "link": "https://github.com/DataTalks-Club/mlops-zoomcamp",
+    "topics": ["mlops", "production", "devops", "monitoring"],
+    "summary": "Complete guide to putting ML models in production with proper monitoring and versioning."
+  },
+  {
+    "title": "Docker for Data Science",
+    "type": "course",
+    "provider": "DataCamp",
+    "link": "https://www.datacamp.com/courses/introduction-to-docker",
+    "topics": ["docker", "containerization", "devops"],
+    "summary": "Learn containerization to package and deploy data science applications reliably."
+  },
+  {
+    "title": "Kubernetes for ML",
+    "type": "course",
+    "provider": "Linux Academy",
+    "link": "https://linuxacademy.com/",
+    "topics": ["kubernetes", "orchestration", "scaling"],
+    "summary": "Master Kubernetes for deploying and scaling machine learning applications."
+  },
+  {
+    "title": "Data Engineering Fundamentals",
+    "type": "course",
+    "provider": "Udacity",
+    "link": "https://www.udacity.com/course/data-engineer-nanodegree--nd027",
+    "topics": ["data engineering", "etl", "databases", "big data"],
+    "summary": "Essential skills for building robust data pipelines and managing large-scale data."
+  },
+  {
+    "title": "Time Series Forecasting with TensorFlow",
+    "type": "course",
+    "provider": "TensorFlow",
+    "link": "https://www.tensorflow.org/tutorials/structured_data/time_series",
+    "topics": ["time series", "forecasting", "tensorflow", "rnn"],
+    "summary": "Learn to build RNNs and LSTMs for predicting sequences and time-dependent patterns."
+  },
+  {
+    "title": "Graph Neural Networks Explained",
+    "type": "blog",
+    "provider": "Distill.pub",
+    "link": "https://distill.pub/",
+    "topics": ["graph neural networks", "gnn", "deep learning"],
+    "summary": "Interactive guide to understanding Graph Neural Networks and their applications."
+  },
+  {
+    "title": "Meta Learning and Few-Shot Learning",
+    "type": "course",
+    "provider": "Stanford",
+    "link": "https://cs330.stanford.edu/",
+    "topics": ["meta-learning", "few-shot", "transfer learning"],
+    "summary": "Learn how AI systems can learn to learn, adapting quickly to new tasks with minimal data."
+  },
+  {
+    "title": "Causal Inference in ML",
+    "type": "course",
+    "provider": "MIT",
+    "link": "https://ocw.mit.edu/",
+    "topics": ["causality", "inference", "statistics"],
+    "summary": "Understanding causal relationships in data for better decision-making in ML systems."
+  },
+  {
+    "title": "Model Interpretability and Explainability",
+    "type": "course",
+    "provider": "FastAI",
+    "link": "https://course.fast.ai/",
+    "topics": ["interpretability", "explainability", "ai ethics"],
+    "summary": "Learn techniques to understand and explain what your models are doing and why."
+  },
+  {
+    "title": "Fairness and Bias in Machine Learning",
+    "type": "course",
+    "provider": "Google AI Principles",
+    "link": "https://ai.google/principles/",
+    "topics": ["fairness", "bias", "ethics", "responsible ai"],
+    "summary": "Critical exploration of fairness, bias, and ethical considerations in AI systems."
+  },
+  {
+    "title": "Privacy-Preserving Machine Learning",
+    "type": "course",
+    "provider": "OpenMined",
+    "link": "https://openmined.org/",
+    "topics": ["privacy", "federated learning", "differential privacy"],
+    "summary": "Learn techniques like federated learning to train models while protecting user privacy."
+  },
+  {
+    "title": "Introduction to Python for Data Science",
+    "type": "course",
+    "provider": "DataCamp",
+    "link": "https://www.datacamp.com/courses/intro-to-python-for-data-science",
+    "topics": ["python", "data science", "fundamentals"],
+    "summary": "Perfect starting point for learning Python with a focus on data science applications."
+  },
+  {
+    "title": "Advanced Python for Data Analysis",
+    "type": "course",
+    "provider": "Real Python",
+    "link": "https://realpython.com/",
+    "topics": ["python", "pandas", "numpy", "advanced"],
+    "summary": "Master Pandas, NumPy, and advanced Python techniques for complex data analysis."
+  },
+  {
+    "title": "SQL for Data Analysis",
+    "type": "course",
+    "provider": "Mode Analytics",
+    "link": "https://mode.com/sql-tutorial/",
+    "topics": ["sql", "databases", "data querying"],
+    "summary": "Learn SQL from basics to advanced queries for extracting insights from relational databases."
+  },
+  {
+    "title": "Statistics for Data Science",
+    "type": "course",
+    "provider": "Probability Course",
+    "link": "https://www.probabilitycourse.com/",
+    "topics": ["statistics", "probability", "hypothesis testing"],
+    "summary": "Essential statistical foundations for making data-driven decisions in ML."
+  },
+  {
+    "title": "Linear Algebra for Machine Learning",
+    "type": "course",
+    "provider": "3Blue1Brown",
+    "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+    "topics": ["linear algebra", "mathematics", "foundations"],
+    "summary": "Beautiful visualization of linear algebra concepts essential for understanding ML algorithms."
+  },
+  {
+    "title": "Calculus for Machine Learning",
+    "type": "course",
+    "provider": "Khan Academy",
+    "link": "https://www.khanacademy.org/math/calculus-1",
+    "topics": ["calculus", "derivatives", "optimization", "mathematics"],
+    "summary": "Master calculus concepts like derivatives and gradient descent used in training neural networks."
+  },
+  {
+    "title": "Bayesian Methods for Machine Learning",
+    "type": "course",
+    "provider": "Coursera",
+    "link": "https://www.coursera.org/learn/bayesian-methods-in-machine-learning",
+    "topics": ["bayesian", "probabilistic", "uncertainty"],
+    "summary": "Understand Bayesian approaches to ML for modeling uncertainty and making probabilistic predictions."
+  },
+  {
+    "title": "Variational Autoencoders (VAE)",
+    "type": "blog",
+    "provider": "Distill.pub",
+    "link": "https://distill.pub/2016/deconvolution-and-checkerboard/",
+    "topics": ["vae", "autoencoders", "generative models"],
+    "summary": "Interactive guide to understanding Variational Autoencoders for generative modeling."
+  },
+  {
+    "title": "Diffusion Models Explained",
+    "type": "blog",
+    "provider": "Lilian Weng",
+    "link": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/",
+    "topics": ["diffusion models", "generative ai", "image generation"],
+    "summary": "Deep dive into diffusion models that power modern image generation like DALL-E and Stable Diffusion."
+  },
+  {
+    "title": "GANs: Generative Adversarial Networks",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/generative-adversarial-networks-gans/",
+    "topics": ["gans", "generative models", "adversarial learning"],
+    "summary": "Learn how GANs work through the interplay of generator and discriminator networks."
+  },
+  {
+    "title": "Vision Transformers (ViT)",
+    "type": "blog",
+    "provider": "Papers With Code",
+    "link": "https://paperswithcode.com/method/vision-transformer",
+    "topics": ["vision", "transformers", "computer vision"],
+    "summary": "Understand how transformers revolutionized computer vision beyond NLP applications."
+  },
+  {
+    "title": "Object Detection: YOLO, R-CNN, and Beyond",
+    "type": "course",
+    "provider": "Coursera",
+    "link": "https://www.coursera.org/learn/convolutional-neural-networks",
+    "topics": ["object detection", "yolo", "cnn", "computer vision"],
+    "summary": "Master modern object detection algorithms for real-world computer vision applications."
+  },
+  {
+    "title": "Semantic Segmentation Deep Dive",
+    "type": "blog",
+    "provider": "Papers With Code",
+    "link": "https://paperswithcode.com/methods/category/semantic-segmentation",
+    "topics": ["semantic segmentation", "computer vision", "deep learning"],
+    "summary": "Comprehensive guide to semantic segmentation models and their applications."
+  },
+  {
+    "title": "Recommendation Systems Design",
+    "type": "course",
+    "provider": "Stanford",
+    "link": "https://cs.stanford.edu/people/jure/courses/cs224w/",
+    "topics": ["recommendation systems", "collaborative filtering", "neural networks"],
+    "summary": "Build scalable recommendation systems using collaborative filtering and deep learning."
+  },
+  {
+    "title": "Natural Language Understanding",
+    "type": "course",
+    "provider": "Stanford",
+    "link": "https://web.stanford.edu/class/cs224n/",
+    "topics": ["nlp", "language models", "semantics"],
+    "summary": "Deep dive into NLP fundamentals from tokenization to transformer-based language understanding."
+  },
+  {
+    "title": "Named Entity Recognition (NER)",
+    "type": "tutorial",
+    "provider": "Hugging Face",
+    "link": "https://huggingface.co/tasks/token-classification",
+    "topics": ["ner", "nlp", "information extraction"],
+    "summary": "Learn to extract and classify named entities from text using transformer models."
+  },
+  {
+    "title": "Question Answering Systems",
+    "type": "course",
+    "provider": "Hugging Face",
+    "link": "https://huggingface.co/tasks/question-answering",
+    "topics": ["qa", "nlp", "information retrieval"],
+    "summary": "Build systems that understand questions and find accurate answers from documents."
+  },
+  {
+    "title": "Machine Translation Deep Learning",
+    "type": "course",
+    "provider": "Coursera",
+    "link": "https://www.coursera.org/learn/nlp-sequence-models",
+    "topics": ["machine translation", "seq2seq", "attention"],
+    "summary": "Master sequence-to-sequence models and attention mechanisms for translation tasks."
+  },
+  {
+    "title": "Speech Recognition and Synthesis",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/short-courses/audio-in-gen-ai/",
+    "topics": ["speech", "audio", "asr", "tts"],
+    "summary": "Learn speech-to-text and text-to-speech technologies using modern neural networks."
+  },
+  {
+    "title": "Multimodal Learning",
+    "type": "course",
+    "provider": "Stanford",
+    "link": "https://cs336.stanford.edu/",
+    "topics": ["multimodal", "vision language", "cross-modal"],
+    "summary": "Understand models that combine multiple modalities like vision and language (CLIP, GPT-4V)."
+  },
+  {
+    "title": "Knowledge Graphs for AI",
+    "type": "course",
+    "provider": "Stanford",
+    "link": "https://www.dbis.informatik.uni-freiburg.de/course/knowgraph/",
+    "topics": ["knowledge graphs", "semantic web", "reasoning"],
+    "summary": "Build knowledge graphs to represent structured information for intelligent AI systems."
+  },
+  {
+    "title": "Graph Neural Networks: Hands-On",
+    "type": "course",
+    "provider": "PyTorch Geometric",
+    "link": "https://pytorch-geometric.readthedocs.io/",
+    "topics": ["graph neural networks", "pytorch", "geometric deep learning"],
+    "summary": "Practical guide to building GNNs with PyTorch Geometric for complex relational data."
+  },
+  {
+    "title": "Active Learning Strategies",
+    "type": "blog",
+    "provider": "Towards Data Science",
+    "link": "https://towardsdatascience.com/",
+    "topics": ["active learning", "labeling", "efficiency"],
+    "summary": "Learn how to strategically select which data to label for maximum learning efficiency."
+  },
+  {
+    "title": "Transfer Learning Best Practices",
+    "type": "blog",
+    "provider": "Medium",
+    "link": "https://medium.com/",
+    "topics": ["transfer learning", "fine-tuning", "domain adaptation"],
+    "summary": "Master strategies for leveraging pre-trained models to solve new problems faster."
+  },
+  {
+    "title": "Batch Normalization and Layer Normalization",
+    "type": "blog",
+    "provider": "Papers With Code",
+    "link": "https://paperswithcode.com/methods/category/normalization",
+    "topics": ["normalization", "training", "optimization"],
+    "summary": "Understanding normalization techniques that stabilize and accelerate neural network training."
+  },
+  {
+    "title": "Attention Mechanisms Explained",
+    "type": "blog",
+    "provider": "Lilianweng.github.io",
+    "link": "https://lilianweng.github.io/posts/2018-06-24-attention/",
+    "topics": ["attention", "mechanisms", "transformers"],
+    "summary": "Comprehensive explanation of various attention mechanisms used in modern deep learning."
+  },
+  {
+    "title": "Positional Encodings in Transformers",
+    "type": "blog",
+    "provider": "Papers With Code",
+    "link": "https://paperswithcode.com/methods/category/positional-encoding",
+    "topics": ["positional encoding", "transformers", "embeddings"],
+    "summary": "Understanding how transformers encode position information for sequence models."
+  },
+  {
+    "title": "Mixture of Experts (MoE)",
+    "type": "blog",
+    "provider": "Towards Data Science",
+    "link": "https://towardsdatascience.com/",
+    "topics": ["mixture of experts", "efficiency", "scaling"],
+    "summary": "Learn about Mixture of Experts architectures that enable efficient scaling of large models."
+  },
+  {
+    "title": "Scaling Laws for Neural Networks",
+    "type": "research paper",
+    "provider": "OpenAI",
+    "link": "https://arxiv.org/abs/2001.08361",
+    "topics": ["scaling", "neural networks", "llms"],
+    "summary": "Understanding how model performance scales with size, data, and compute - key insights for AI development."
+  },
+  {
+    "title": "The Bitter Lesson",
+    "type": "blog",
+    "provider": "Rich Sutton",
+    "link": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+    "topics": ["ai philosophy", "learning", "insights"],
+    "summary": "Thought-provoking essay on what has truly mattered in AI research over the past 70 years."
+  },
+  {
+    "title": "Adversarial Robustness in Deep Learning",
+    "type": "course",
+    "provider": "MIT",
+    "link": "https://ocw.mit.edu/",
+    "topics": ["adversarial", "robustness", "security", "deep learning"],
+    "summary": "Understand how to make neural networks robust against adversarial attacks and perturbations."
+  },
+  {
+    "title": "Neural Network Pruning and Distillation",
+    "type": "blog",
+    "provider": "Papers With Code",
+    "link": "https://paperswithcode.com/methods/category/neural-network-compression",
+    "topics": ["pruning", "distillation", "model compression"],
+    "summary": "Techniques for making neural networks smaller and faster while maintaining accuracy."
+  },
+  {
+    "title": "Knowledge Distillation in Practice",
+    "type": "blog",
+    "provider": "Distill.pub",
+    "link": "https://distill.pub/",
+    "topics": ["knowledge distillation", "model compression", "efficiency"],
+    "summary": "Learn how to transfer knowledge from large teacher models to smaller student models."
+  },
+  {
+    "title": "Emerging Trends in Foundation Models",
+    "type": "blog",
+    "provider": "Anthropic",
+    "link": "https://www.anthropic.com/research",
+    "topics": ["foundation models", "trends", "ai research"],
+    "summary": "Overview of latest developments and trends in large foundation models and their applications."
+  },
+  {
+    "title": "Constitutional AI and AI Alignment",
+    "type": "research paper",
+    "provider": "Anthropic",
+    "link": "https://arxiv.org/abs/2212.08073",
+    "topics": ["alignment", "safety", "constitutional ai"],
+    "summary": "Innovative approach to making AI systems safer and more aligned with human values."
+  },
+  {
+    "title": "Hallucinations in Large Language Models",
+    "type": "blog",
+    "provider": "Papers With Code",
+    "link": "https://paperswithcode.com/",
+    "topics": ["hallucinations", "llms", "safety"],
+    "summary": "Understanding why LLMs generate plausible-sounding but false information and mitigation strategies."
+  },
+  {
+    "title": "In-Context Learning in Large Language Models",
+    "type": "research paper",
+    "provider": "arXiv",
+    "link": "https://arxiv.org/abs/2301.00774",
+    "topics": ["in-context learning", "llms", "few-shot"],
+    "summary": "Understanding how LLMs learn from examples in their context without parameter updates."
+  },
+  {
+    "title": "Prompt Injection Attacks and Defenses",
+    "type": "blog",
+    "provider": "OpenAI",
+    "link": "https://openai.com/research/",
+    "topics": ["security", "prompt injection", "llms"],
+    "summary": "Learn about prompt injection vulnerabilities in LLM applications and how to defend against them."
+  },
+  {
+    "title": "Tool Use in Language Models",
+    "type": "research paper",
+    "provider": "arXiv",
+    "link": "https://arxiv.org/abs/2305.11738",
+    "topics": ["tool use", "llms", "agents"],
+    "summary": "How language models can learn to use external tools and APIs to extend their capabilities."
+  },
+  {
+    "title": "Open-Source LLMs: Evaluation and Comparison",
+    "type": "blog",
+    "provider": "Hugging Face",
+    "link": "https://huggingface.co/spaces/",
+    "topics": ["open source", "llms", "comparison"],
+    "summary": "Comprehensive comparison of popular open-source models like Llama, Mistral, and Phi."
+  },
+  {
+    "title": "Practical Deep Learning for Coders",
+    "type": "course",
+    "provider": "FastAI",
+    "link": "https://course.fast.ai/",
+    "topics": ["deep learning", "practical", "coding"],
+    "summary": "Top-down approach to deep learning starting with practical applications before theory."
+  },
+  {
+    "title": "Deep Learning Fundamentals",
+    "type": "course",
+    "provider": "DeepLearning.AI",
+    "link": "https://www.deeplearning.ai/",
+    "topics": ["deep learning", "fundamentals", "neural networks"],
+    "summary": "Foundational course covering neural networks, backpropagation, and deep learning basics."
+  },
+  {
+    "title": "Natural Language Processing Specialization",
+    "type": "course",
+    "provider": "Coursera",
+    "link": "https://www.coursera.org/specializations/natural-language-processing",
+    "topics": ["nlp", "specialization", "comprehensive"],
+    "summary": "Complete NLP specialization covering text processing, classification, and sequence models."
+  },
+  {
+    "title": "GANs Specialization",
+    "type": "course",
+    "provider": "Coursera",
+    "link": "https://www.coursera.org/specializations/generative-adversarial-networks-gans",
+    "topics": ["gans", "generative models", "specialization"],
+    "summary": "In-depth specialization on GANs covering conditional GANs, StyleGAN, and practical applications."
+  },
+  {
+    "title": "AI for Game Development",
+    "type": "course",
+    "provider": "Unity",
+    "link": "https://learn.unity.com/",
+    "topics": ["game development", "ai", "ml-agents"],
+    "summary": "Learn to use AI and machine learning for creating intelligent game agents and NPCs."
+  },
+  {
+    "title": "Robotics and Machine Learning",
+    "type": "course",
+    "provider": "Stanford",
+    "link": "https://cs.stanford.edu/people/tedreed/cs229a/",
+    "topics": ["robotics", "reinforcement learning", "control"],
+    "summary": "Apply machine learning techniques to robotics for perception, planning, and control."
+  }
+]

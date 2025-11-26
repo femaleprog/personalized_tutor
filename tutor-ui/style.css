@@ -1,0 +1,276 @@
+/* Base reset and fixed background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  background: url('assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Corner decorations */
+.corner {
+  position: absolute;
+  width: 80px;
+  z-index: 1;
+}
+
+.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.top-right {
+  top: 20px;
+  right: 20px;
+}
+
+/* Main container styling */
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+h1 {
+  font-size: 22px;
+  text-shadow: 2px 2px #444;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Smaller centered coffee icon */
+.center-icon {
+  width: 50px;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* Search input box */
+.search-wrapper {
+  position: relative;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding: 15px 20px;
+  border-radius: 30px;
+  border: none;
+  width: 400px;
+  font-size: 12px;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 4px 4px 0 #888;
+}
+
+/* More specific styling for the search button to ensure it overrides defaults */
+.search-wrapper .search-btn {
+  padding: 12px 22px;
+  margin-left: 8px;
+  font-size: 13px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ffd0e6; /* baby pink */
+  color: #3a1a2a;
+  border: 2px solid #ffb3d9;
+  border-radius: 28px; /* ergonomic pill */
+  box-shadow: 0 6px 0 #ffb3d9, 0 6px 12px rgba(255, 179, 217, 0.28);
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
+  position: relative;
+  overflow: visible;
+}
+
+.search-wrapper .search-btn:hover {
+  background-color: #ffb3d9;
+  transform: translateY(-3px);
+  box-shadow: 0 9px 0 #ffb3d9, 0 9px 20px rgba(255, 179, 217, 0.4);
+}
+
+/* Sparkle pseudo-element - appears on hover */
+.search-wrapper .search-btn::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+}
+
+.search-wrapper .search-btn:hover::after {
+  animation: burst 700ms cubic-bezier(.2,.8,.2,1);
+}
+
+@keyframes burst {
+  0% { opacity: 1; transform: translate(-50%, -50%) scale(0); box-shadow: 0 0 0 0 rgba(255,255,255,0.0), 0 0 0 0 rgba(255,220,235,0.0), 0 0 0 0 rgba(255,200,230,0.0); }
+  30% { opacity: 1; transform: translate(-50%, -50%) scale(1); box-shadow:  -18px -12px 0 0 #fff, 18px -10px 0 0 #ffd0e6, -28px 6px 0 0 #ffc4e6, 28px 8px 0 0 #ffe6f2; }
+  70% { opacity: 0.8; transform: translate(-50%, -50%) scale(0.8); box-shadow:  -40px -28px 0 0 rgba(255,255,255,0.0), 40px -26px 0 0 rgba(255,220,235,0.0), -60px 18px 0 0 rgba(255,200,230,0.0), 60px 20px 0 0 rgba(255,220,235,0.0); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(0.2); box-shadow: none; }
+}
+
+
+button {
+  padding: 25px 50px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ffb3d9;
+  color: white;
+  border: 3px solid #ff99cc;
+  border-radius: 50px;
+  box-shadow: 0 8px 0 #ff99cc, 0 8px 20px rgba(255, 179, 217, 0.4);
+  cursor: pointer;
+  transition: all 120ms ease;
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: #ffc4e6;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 0 #ff99cc, 0 12px 30px rgba(255, 179, 217, 0.6);
+  animation: sparkle 0.6s ease-out;
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 0 #ff99cc, 0 3px 10px rgba(255, 179, 217, 0.4);
+}
+
+@keyframes sparkle {
+  0% {
+    box-shadow: 
+      0 12px 0 #ff99cc, 
+      0 12px 30px rgba(255, 179, 217, 0.6),
+      20px -20px 0 rgba(255, 200, 230, 0.8),
+      -20px -20px 0 rgba(255, 200, 230, 0.8),
+      30px 0 0 rgba(255, 220, 235, 0.6),
+      -30px 0 0 rgba(255, 220, 235, 0.6);
+  }
+  50% {
+    box-shadow: 
+      0 12px 0 #ff99cc, 
+      0 12px 30px rgba(255, 179, 217, 0.6),
+      50px -40px 0 rgba(255, 200, 230, 0),
+      -50px -40px 0 rgba(255, 200, 230, 0),
+      60px 20px 0 rgba(255, 220, 235, 0),
+      -60px 20px 0 rgba(255, 220, 235, 0);
+  }
+  100% {
+    box-shadow: 
+      0 12px 0 #ff99cc, 
+      0 12px 30px rgba(255, 179, 217, 0.6),
+      80px -60px 0 rgba(255, 200, 230, 0),
+      -80px -60px 0 rgba(255, 200, 230, 0),
+      100px 40px 0 rgba(255, 220, 235, 0),
+      -100px 40px 0 rgba(255, 220, 235, 0);
+  }
+}
+
+/* Click animation cursor */
+.click-cursor {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  width: 50px;
+  transform: translateY(-50%);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1) translateY(-50%); }
+  50% { transform: scale(1.1) translateY(-50%); }
+  100% { transform: scale(1) translateY(-50%); }
+}
+/* Footer styles */
+footer {
+  background-color: #F2A0C4; /* Pink color */
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 15px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+  margin: 0;
+}
+.results {
+  max-width: 1100px;
+  margin: 24px auto 60px;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: rgba(255, 245, 250, 0.92);
+  border: 3px solid #f2a0c4;
+  border-radius: 18px;
+  box-shadow: 6px 6px 0 #c989a6;
+  padding: 16px 16px 14px;
+  color: #3a2e35;
+  backdrop-filter: blur(2px);
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+.card:hover { transform: translateY(-3px); box-shadow: 8px 10px 0 #c989a6; }
+
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #2b1b25;
+  text-shadow: 1px 1px #fff;
+}
+
+.card .meta {
+  font-size: 10px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 0 0 12px 0;
+}
+
+.card a.btn {
+  display: inline-block;
+  font-size: 11px;
+  text-decoration: none;
+  background: #a8d9d9;
+  color: #2b1b25;
+  border: 2px solid #7cb9b6;
+  padding: 8px 10px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 0 #7cb9b6;
+}
+.card a.btn:hover { transform: translate(-1px, -1px); }
+
+.tag {
+  display: inline-block;
+  font-size: 10px;
+  background: #ffe6ef;
+  border: 1px solid #f2a0c4;
+  border-radius: 999px;
+  padding: 2px 8px;
+  margin: 4px 6px 0 0;
+}

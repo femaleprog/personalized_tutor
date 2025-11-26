@@ -1,7 +1,10 @@
-from getpass import getpass
+import os
 from mistralai import Mistral
 
-api_key= getpass("Type your API Key")
+from dotenv import load_dotenv
+load_dotenv()
+
+api_key = os.environ.get("MISTRAL_API_KEY")
 client = Mistral(api_key=api_key)
 
 def generate_prompt(retrieved_chunk, question):
@@ -16,6 +19,7 @@ def generate_prompt(retrieved_chunk, question):
     Answer:
     """
     return prompt
+
 
 def run_mistral(user_message, model="mistral-large-latest"):
     messages = [

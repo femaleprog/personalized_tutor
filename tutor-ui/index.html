@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Personalized Tutor</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top-left hearts -->
+  <div class="corner top-left">
+    <img src="assets/macaron.png" alt="macaron" style="width: 80px;">
+  </div>
+
+  <!-- Top-right coffee (smaller and centered in UI below) -->
+  <div class="corner top-right">
+    <img src="assets/ribbons.png" alt="Ribbon" style="width: 80px;">
+  </div>
+
+  <!-- Main UI container -->
+  <div class="main-container">
+    <h1>I look for the best course for you</h1>
+    <img src="assets/coffee.gif" alt="Coffee" class="center-icon">
+    <p class="subtitle">What do you want to learn today ?</p>
+
+    <div class="search-wrapper">
+      <input type="text" id="question-input" placeholder="Type here...">
+      <button class="search-btn" onclick="submitQuestion()">Search</button>
+      <img src="assets/cursor.png" alt="Cursor" class="click-cursor">
+    </div>
+
+<div id="results" class="results"></div>
+
+  </div>
+  <footer>
+    <p>Made with love 💖</p>
+  </footer>
+<script>
+  function escapeHtml(text) {
+    var div = document.createElement("div");
+    div.innerText = text;
+    return div.innerHTML;
+    }
+
+  async function submitQuestion() {
+    const input = document.getElementById("question-input");
+    const question = input.value;
+    const resultsEl = document.getElementById("results");
+    
+    if (!question) {
+      resultsEl.innerText = "Please enter a question.";
+      return;
+    }
+
+    resultsEl.innerText = "Thinking... 🧠";
+
+    try {
+      const response = await fetch("http://127.0.0.1:5000/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question })
+      });
+
+      const data = await response.json();
+      if (data.answer) {
+        resultsEl.innerHTML = data.answer.map(r => `
+        <div class="card">
+          <h3>${escapeHtml(r.title)}</h3>
+          <p>${escapeHtml(r.summary)}</p>
+          <a href="${r.link}" target="_blank" rel="noopener">Open ➜</a>
+        </div>
+      `).join("");
+      } else {
+        resultsEl.innerText = "Oops! Something went wrong.";
+      }
+
+    } catch (err) {
+      console.error(err);
+      resultsEl.innerText = "Error reaching the server.";
+    }
+  }
+</script>
+
+</body>
+</html>
